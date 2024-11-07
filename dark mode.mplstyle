@@ -1,0 +1,8 @@
+axes.titlecolor: white
+axes.labelcolor: white
+xtick.color: white
+ytick.color: white
+figure.facecolor: black
+
+xtick.major.size: 0
+ytick.major.size: 0
