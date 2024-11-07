@@ -1,0 +1,10 @@
+# Dark Mode
+axes.titlecolor: white
+axes.labelcolor: white
+xtick.color: white
+ytick.color: white
+figure.facecolor: black
+
+# Cleanup
+xtick.major.size: 0
+ytick.major.size: 0
