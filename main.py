@@ -61,8 +61,10 @@ df = clean_df(df)
 heatmap = pd.crosstab(df["German"].str[0], df["English"].str[0])
 
 # Plot configuration
-plt.style.use("clean.mplstyle")
-font = load_font(font_path="Lexend-VariableFont_wght.ttf")
+plt.style.use("dark mode.mplstyle")
+font = load_font(
+    "https://github.com/googlefonts/lexend/blob/main/fonts/lexend/variable/Lexend%5BHEXP%2Cwght%5D.ttf?raw=true"
+)
 
 # Create and customize the plot
 fig = plt.figure(figsize=(10, 10), dpi=300)
